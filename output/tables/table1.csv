@@ -1,0 +1,15 @@
+Variable,All_Mean,All_SD,Islamic_Mean,Islamic_SD,Secular_Mean,Secular_SD,Difference,SE,Stars
+Share women aged 15-20 with high school education,0.163,0.096,0.14,0.09,0.166,0.096,-0.026,0.006,***
+Share men aged 15-20 with high school education,0.192,0.077,0.196,0.076,0.192,0.078,0.004,0.005,
+Islamic mayor in 1994,0.12,0.325,1,0,0,0,1,0,
+Islamic vote share 1994,0.139,0.154,0.415,0.114,0.101,0.116,0.313,0.007,***
+Number of parties receiving votes 1994,5.541,2.192,5.889,3.019,5.494,2.05,0.395,0.131,**
+Log population in 1994,7.84,1.188,8.315,1.767,7.775,1.07,0.54,0.071,***
+Population share below 19 in 2000,0.405,0.083,0.445,0.075,0.4,0.082,0.046,0.005,***
+Population share above 60 in 2000,0.092,0.04,0.073,0.031,0.095,0.04,-0.022,0.002,***
+Gender ratio in 2000,1.073,0.253,1.076,0.117,1.073,0.266,0.003,0.015,
+Household size in 2000,5.835,2.36,6.445,2.147,5.752,2.376,0.693,0.141,***
+District center,0.345,0.475,0.394,0.489,0.338,0.473,0.056,0.029,
+Province center,0.023,0.149,0.067,0.25,0.017,0.129,0.05,0.009,***
+Sub-metro center,0.022,0.146,0.076,0.266,0.014,0.119,0.062,0.009,***
+Observations,2629,,315,,2314,,2629,,

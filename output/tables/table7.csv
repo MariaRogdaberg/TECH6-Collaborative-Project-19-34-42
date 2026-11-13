@@ -1,0 +1,31 @@
+Outcome,Panel,Model,Mean,Estimate,SE,Stars,Bandwidth,N
+ahischshr15_19f,A: Global OLS,1. Unconditional,0.193,-0.021,0.007,***,1,2338
+ahischshr15_19f,A: Global OLS,2. Conditional,0.193,0.006,0.007,,1,2338
+ahischshr15_19f,B: Local linear RD,1. Bandwidth h,0.186,0.017,0.01,*,0.239,879
+ahischshr15_19f,B: Local linear RD,2. Bandwidth h/2,0.186,0.033,0.013,**,0.119,508
+ahischshr15_19f,B: Local linear RD,3. Bandwidth 2h,0.186,0.017,0.007,**,0.477,1795
+ahischshr15_19m,A: Global OLS,1. Unconditional,0.189,-0.007,0.005,,1,2338
+ahischshr15_19m,A: Global OLS,2. Conditional,0.189,0.01,0.006,*,1,2338
+ahischshr15_19m,B: Local linear RD,1. Bandwidth h,0.182,0.011,0.011,,0.199,766
+ahischshr15_19m,B: Local linear RD,2. Bandwidth h/2,0.182,-0.007,0.014,,0.1,420
+ahischshr15_19m,B: Local linear RD,3. Bandwidth 2h,0.182,0.013,0.012,,0.399,1486
+ahischshr15_29f,A: Global OLS,1. Unconditional,0.347,-0.047,0.013,***,1,2338
+ahischshr15_29f,A: Global OLS,2. Conditional,0.347,0.01,0.009,,1,2338
+ahischshr15_29f,B: Local linear RD,1. Bandwidth h,0.334,0.022,0.011,**,0.263,950
+ahischshr15_29f,B: Local linear RD,2. Bandwidth h/2,0.334,0.032,0.016,*,0.131,544
+ahischshr15_29f,B: Local linear RD,3. Bandwidth 2h,0.334,0.021,0.01,**,0.525,2066
+ahischshr15_29m,A: Global OLS,1. Unconditional,0.42,-0.01,0.009,,1,2338
+ahischshr15_29m,A: Global OLS,2. Conditional,0.42,0.022,0.009,**,1,2338
+ahischshr15_29m,B: Local linear RD,1. Bandwidth h,0.415,0.027,0.015,*,0.227,840
+ahischshr15_29m,B: Local linear RD,2. Bandwidth h/2,0.415,0.034,0.015,**,0.114,482
+ahischshr15_29m,B: Local linear RD,3. Bandwidth 2h,0.415,0.022,0.013,*,0.454,1710
+nevm15_19f,A: Global OLS,1. Unconditional,0.915,-0.002,0.006,,1,2338
+nevm15_19f,A: Global OLS,2. Conditional,0.915,0.006,0.004,,1,2338
+nevm15_19f,B: Local linear RD,1. Bandwidth h,0.912,0.013,0.006,**,0.28,1009
+nevm15_19f,B: Local linear RD,2. Bandwidth h/2,0.912,0.008,0.008,,0.14,581
+nevm15_19f,B: Local linear RD,3. Bandwidth 2h,0.912,0.008,0.005,*,0.56,2191
+nevm15_19m,A: Global OLS,1. Unconditional,0.995,0,0,,1,2338
+nevm15_19m,A: Global OLS,2. Conditional,0.995,0.001,0.001,,1,2338
+nevm15_19m,B: Local linear RD,1. Bandwidth h,0.995,-0,0.001,,0.271,976
+nevm15_19m,B: Local linear RD,2. Bandwidth h/2,0.995,-0,0.001,,0.136,554
+nevm15_19m,B: Local linear RD,3. Bandwidth 2h,0.995,-0,0.001,,0.542,2143
