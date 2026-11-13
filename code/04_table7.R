@@ -19,6 +19,8 @@ covariates <- c("vshr_islam1994", "partycount", "lpop1994", "ageshr19",
                 "ageshr60", "sexr", "shhs", "merkezi", "merkezp",
                 "subbuyuk", "buyuk")
 
+# Fixed effects for the 81 current provinces, SEs clustered by the 67 provinces
+# of 1994 like in Meyersson's code
 provinces <- "factor(province_post)"
 
 # ---- 3. One regression ------------------------------------------------------

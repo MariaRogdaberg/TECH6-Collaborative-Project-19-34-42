@@ -23,7 +23,7 @@ d <- raw |>
   
   filter(vshr_islam1994 < 0.75)   # Only vote shares below 0,75 are plotted
 
-# Close elections: margin within 2 percentage points of the cutoff (100)
+# Close elections: margin within 2 percentage points of the cutoff
 close <- d |> filter(abs(iwm94) < 0.02)
 
 # ---- 3. The two-party line --------------------------------------------------

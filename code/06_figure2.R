@@ -11,7 +11,6 @@
 
 # ---- 1. Loading the data ----------------------------------------------------
 library(tidyverse)
-library(rddensity)
 raw <- haven::read_dta("data/regdata0.dta")
 
 # ---- 2. Panel A: histogram --------------------------------------------------

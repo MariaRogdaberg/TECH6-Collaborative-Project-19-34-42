@@ -23,6 +23,8 @@ covariates <- c("vshr_islam1994", "partycount", "lpop1994", "ageshr19",
                 "ageshr60", "sexr", "shhs", "merkezi", "merkezp",
                 "subbuyuk", "buyuk")
 
+# Fixed effects for the 81 current provinces, SEs clustered by the 67 provinces
+# of 1994 like in Meyersson's code
 provinces <- "factor(province_post)"
 
 # ---- 3. Sample and polynomial terms -----------------------------------------
@@ -160,7 +162,7 @@ table2 <- table2 |>
   mutate(Stars = if_else(p_value < 0.01, "***",
                  if_else(p_value < 0.05, "**",
                  if_else(p_value < 0.10, "*", ""))),
-         p_value_equal = if_else(Panel == "A: Women", p_value_equal, NA),
+         p_value_equal = if_else(Panel == "A: Women", p_value_equal, NA_real_),
          Estimate = round(Estimate, 3),
          SE = round(SE, 3),
          Mean = round(Mean, 3),

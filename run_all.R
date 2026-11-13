@@ -37,4 +37,4 @@ source("code/07_figure3.R")
 cat("\n--- Figure 4 ---\n")
 source("code/08_figure4.R")
 
-cat("\nDone: all tables and figures saved in output/tables/.\n")
+cat("\nDone: tables are saved in output/tables and figures are saved in output/figures/.\n")

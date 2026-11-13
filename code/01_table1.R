@@ -106,7 +106,8 @@ table1 <- data.frame(
   Stars = stars
 )
 
-# Observations row: column 1 and 4 reports the total
+# Observations row: the total appears under All and Difference, 
+# as in the paper's columns 1 and 4
 obs_row <- data.frame(
   Variable     = "Observations",
   All_Mean     = nrow(d),
