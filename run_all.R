@@ -37,4 +37,10 @@ source("code/07_figure3.R")
 cat("\n--- Figure 4 ---\n")
 source("code/08_figure4.R")
 
-cat("\nDone: tables are saved in output/tables and figures are saved in output/figures/.\n")
+cat("\n--- Extension 1 ---\n")
+source("code/extension1/01_sample.R")
+source("code/extension1/02_main_results.R")
+source("code/extension1/03_control_vs_difference.R")
+source("code/extension1/04_robustness.R")
+
+cat("\nDone: results saved in output/tables/, output/figures/, and output/extension1/.\n")
