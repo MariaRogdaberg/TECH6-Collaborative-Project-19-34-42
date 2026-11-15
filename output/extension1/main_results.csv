@@ -1,0 +1,28 @@
+Year,Group,Estimate,SE,p_value,N,Controls,Stars
+1990,Women,0.021,0.008,0.017,595,None,**
+1990,Women,0.014,0.007,0.062,595,Table 2,*
+1990,Women,0.017,0.008,0.037,595,Pre-determined,**
+2000,Women,0.034,0.016,0.035,595,None,**
+2000,Women,0.027,0.014,0.053,595,Table 2,*
+2000,Women,0.031,0.013,0.021,595,Pre-determined,**
+Change,Women,0.014,0.011,0.212,595,None,
+Change,Women,0.014,0.011,0.222,595,Table 2,
+Change,Women,0.013,0.01,0.218,595,Pre-determined,
+1990,Men,0.007,0.013,0.58,595,None,
+1990,Men,0.005,0.012,0.696,595,Table 2,
+1990,Men,0.006,0.012,0.599,595,Pre-determined,
+2000,Men,0.015,0.013,0.25,595,None,
+2000,Men,0.011,0.011,0.32,595,Table 2,
+2000,Men,0.013,0.01,0.194,595,Pre-determined,
+Change,Men,0.007,0.008,0.365,595,None,
+Change,Men,0.006,0.009,0.484,595,Table 2,
+Change,Men,0.007,0.01,0.509,595,Pre-determined,
+1990,Women - men,0.014,0.009,0.149,595,None,
+1990,Women - men,0.009,0.01,0.402,595,Table 2,
+1990,Women - men,0.011,0.01,0.288,595,Pre-determined,
+2000,Women - men,0.02,0.009,0.029,595,None,**
+2000,Women - men,0.016,0.009,0.074,595,Table 2,*
+2000,Women - men,0.018,0.01,0.092,595,Pre-determined,*
+Change,Women - men,0.006,0.012,0.602,595,None,
+Change,Women - men,0.007,0.013,0.575,595,Table 2,
+Change,Women - men,0.007,0.014,0.634,595,Pre-determined,

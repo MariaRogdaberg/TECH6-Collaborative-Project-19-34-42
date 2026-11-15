@@ -1,0 +1,19 @@
+Outcome,Controls,Estimate,SE,p_value,Bandwidth,N,Stars
+"Women, 1990",None,0.011,0.014,0.435,0.12,324,
+"Women, 1990",None,0.021,0.008,0.017,0.24,595,**
+"Women, 1990",None,0.011,0.007,0.142,0.48,1293,
+"Women, 1990",Table 2,0.022,0.011,0.046,0.12,324,**
+"Women, 1990",Table 2,0.014,0.007,0.062,0.24,595,*
+"Women, 1990",Table 2,0.006,0.007,0.342,0.48,1293,
+"Women, 1990",Pre-determined,0.02,0.01,0.043,0.12,324,**
+"Women, 1990",Pre-determined,0.017,0.008,0.037,0.24,595,**
+"Women, 1990",Pre-determined,0.006,0.007,0.325,0.48,1293,
+"Women, change",None,0.009,0.013,0.506,0.12,324,
+"Women, change",None,0.014,0.011,0.212,0.24,595,
+"Women, change",None,0.016,0.009,0.075,0.48,1293,*
+"Women, change",Table 2,0.012,0.014,0.375,0.12,324,
+"Women, change",Table 2,0.014,0.011,0.222,0.24,595,
+"Women, change",Table 2,0.014,0.008,0.078,0.48,1293,*
+"Women, change",Pre-determined,0.008,0.013,0.575,0.12,324,
+"Women, change",Pre-determined,0.013,0.01,0.218,0.24,595,
+"Women, change",Pre-determined,0.014,0.007,0.057,0.48,1293,*

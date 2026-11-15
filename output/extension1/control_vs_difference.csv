@@ -1,0 +1,4 @@
+Approach,Estimate,SE,p_value,Bandwidth,N,Stars
+Table 4 col. 2 (paper's specification and sample),0.015,0.007,0.046,0.305,769,**
+Controlling for 1990 female education,0.016,0.011,0.143,0.24,595,
+Differencing out 1990 female education,0.013,0.01,0.218,0.24,595,
