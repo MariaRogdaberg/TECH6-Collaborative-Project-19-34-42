@@ -8,6 +8,10 @@
 #   Open the R project (.Rproj), open this file, and run it as a whole with
 #   Ctrl+Shift+Enter (Windows) / Cmd+Shift+Enter (Mac), or the Source button.
 #   Output is saved in output/tables/ and output/figures/.
+#
+#   Extension 2 starts in Python. Run main.py FIRST, in the course's TECH6
+#   conda environment (conda activate TECH6, then python main.py). It saves
+#   the predictions that Extension 2's R script reads.
 # ============================================================================
 
 cat("\n--- Setup ---\n")
@@ -43,4 +47,7 @@ source("code/extension1/02_main_results.R")
 source("code/extension1/03_control_vs_difference.R")
 source("code/extension1/04_robustness.R")
 
-cat("\nDone: results saved in output/tables/, output/figures/, and output/extension1/.\n")
+cat("\n--- Extension 2 ---\n")
+source("code/extension2/01_rd_on_prediction.R")
+
+cat("\nDone: results saved in output/tables/, output/figures/, output/extension1/\n    and output/extension2/.\n")

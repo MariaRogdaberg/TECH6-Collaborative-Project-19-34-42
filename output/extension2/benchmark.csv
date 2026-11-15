@@ -1,0 +1,7 @@
+Features,Model,R2_out_of_sample
+A,OLS,0.305
+A,Lasso,0.304
+A,Forest,0.323
+B,OLS,0.562
+B,Lasso,0.561
+B,Forest,0.584
