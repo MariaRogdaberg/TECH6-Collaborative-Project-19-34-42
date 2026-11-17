@@ -4,5 +4,3 @@
 .Ruserdata
 .DS_Store
 
-# Made by main.py, rebuilt from scratch
-output/extension2/predictions.csv

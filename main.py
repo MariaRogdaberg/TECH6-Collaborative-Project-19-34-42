@@ -1,19 +1,7 @@
 # =============================================================================
 # main.py : Python entry point -- Extension 2, step 1 (predictions)
 # =============================================================================
-# HOW TO RUN IT
-#   From the project folder, in the course's TECH6 conda environment:
-#       conda activate TECH6
-#       python main.py
-#   It takes about a minute. Extension 2's R script
-#   (code/extension2/01_rd_on_prediction.R, run by run_all.R) reads the
-#   predictions this script saves.
-#
 # WHAT THIS SCRIPT DOES
-#   Were towns that narrowly elected an Islamic mayor already different
-#   before the 1994 election? To check, we turn each town's pre-1994
-#   characteristics into one number: the female high school share in 2000
-#   that those characteristics predict.
 #   1. Load the data and pick the pre-1994 features
 #   2. Set up OLS, Lasso and a random forest
 #   3. Predict every town out of sample, training on secular towns only,
@@ -22,19 +10,6 @@
 #      election, compared with always guessing the more common winner
 #   5. Save the results in output/extension2/, with the actual outcome next
 #      to the predictions so R can compare them in the same towns
-#
-# CHOICES
-#   - We only use characteristics measured before the 1994 election.
-#   - GroupKFold keeps every town in a province in the same fold. Towns in
-#     one province share conditions we cannot observe, so a model tested on
-#     a province it trained on would look better than it is. This is the
-#     same reason we cluster by province in R.
-#   - We predict in a loop over the folds, so no town is predicted by a
-#     model that saw it. The models train on secular towns only, so the
-#     prediction is the education a town would have without an Islamic
-#     mayor.
-#   - The outcome is a share, so the forest is a RandomForestRegressor,
-#     the regression version of the random forest classifier.
 # =============================================================================
 
 import numpy as np
@@ -99,7 +74,7 @@ def predict_out_of_sample(X, model):
     return prediction
 
 
-predictions = df[['iwm94', 'i94', 'pcode']].copy()
+predictions = df[['hischshr1520f', 'iwm94', 'i94', 'pcode']].copy()
 benchmark = []
 
 for set_name, features in feature_sets.items():
