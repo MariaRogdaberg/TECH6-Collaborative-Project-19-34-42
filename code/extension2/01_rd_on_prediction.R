@@ -2,13 +2,6 @@
 # 01_rd_on_prediction.R : Extension 2, how much of the jump do pre-1994
 # differences explain?
 # =============================================================================
-# The paper checks pre-1994 differences one variable at a time. We ask how
-# much of the jump in women's education at the cutoff these differences
-# could account for together. main.py combines each town's pre-1994 data
-# into one number, the women's high school share in 2000 that the data
-# predicts. We run the paper's RD on the actual outcome and on each
-# prediction, in the same towns, and compare the size of the jumps.
-#
 # WHAT THIS SCRIPT DOES
 #   1. Loads the actual outcome and the predictions made by main.py (Python,
 #      run it first)
@@ -39,6 +32,8 @@ covariates <- c("vshr_islam1994", "partycount", "lpop1994", "ageshr19",
 # ---- 3. Samples and bandwidth -----------------------------------------------
 # Table 2's sample and its women's IK bandwidth (paper: 0.240), so the test
 # looks at the same window of towns as the paper's effect.
+# The regressions use main.py's towns (those with every pre-1994 feature):
+# 576 within the bandwidth, so the actual jump is 0.030 rather than 0.032.
 d2000 <- raw |>
   drop_na(all_of(c("hischshr1520f", "hischshr1520m", "iwm94", "i94",
                    "pcode", covariates)))

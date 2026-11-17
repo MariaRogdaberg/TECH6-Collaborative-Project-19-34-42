@@ -42,8 +42,8 @@ Empowerment of the Poor and Pious", *Econometrica*, 82(1), 229–269.
    ```
 4. The results are saved in `output/`. The script prints "Done" when it has finished.
 
-Run `main.py` before `run_all.R`. Otherwise `run_all.R` stops at Extension 2 and asks you to
-run it.
+`main.py` rebuilds `output/extension2/predictions.csv`. `run_all.R` uses the predictions in the
+repository, so run `main.py` first to regenerate every result from the data.
 
 ## Table and figure crosswalk
 
@@ -73,8 +73,8 @@ project folder. Results are saved in `output/extension1/` and `output/extension2
 | Ext. 1: Table E1          | [`02_main_results.R`](code/extension1/02_main_results.R) | `main_results.csv`                                                     |                       |
 | Ext. 1: Table E2          | [`03_control_vs_difference.R`](code/extension1/03_control_vs_difference.R) | `control_vs_difference.csv`                                            |                       |
 | Ext. 1: robustness        | [`04_robustness.R`](code/extension1/04_robustness.R) | `robustness.csv`                                                       |                       |
-| Ext. 2: predictions       | [`main.py`](main.py) | `predictions.csv`, `benchmark.csv`, `accuracy.csv`                     | Python, run first     |
-| Ext. 2: RD on predictions | [`01_rd_on_prediction.R`](code/extension2/01_rd_on_prediction.R) | `rd_on_prediction.csv`                                                 | Needs `main.py` first |
+| Ext. 2: predictions       | [`main.py`](main.py) | `predictions.csv`, `benchmark.csv`, `accuracy.csv`                     | Run before `run_all.R` |
+| Ext. 2: RD on predictions | [`01_rd_on_prediction.R`](code/extension2/01_rd_on_prediction.R) | `rd_on_prediction.csv`                                                 | Reads `predictions.csv` |
 
 ## Notes
 
