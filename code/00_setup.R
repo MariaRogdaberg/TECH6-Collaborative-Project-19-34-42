@@ -12,13 +12,7 @@
 
 course_packages <- c(
   "tidyverse",   # data wrangling + plotting (dplyr, ggplot2, tidyr, ...)
-  "estimatr",    # lm_robust(): regression with robust SEs -- our house style
-  "fixest",      # feols(): fixed effects, IV, clustered SEs, event studies
-  "causaldata",  # the datasets used in the Mixtape and in our labs
-  "MatchIt",     # matching estimators 
-  "cobalt",      # balance diagnostics and love plots
-  "rdrobust",    # regression discontinuity estimation + plots
-  "rddensity"    # manipulation (density) test at a cutoff 
+  "fixest"      # feols(): fixed effects, IV, clustered SEs, event studies
 )
 
 # Only install what is missing, so re-running this script is always safe:
