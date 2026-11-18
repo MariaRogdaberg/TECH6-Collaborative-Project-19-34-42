@@ -2,12 +2,12 @@
 # run_all.R : runs the whole project and saves every table and figure
 # ============================================================================
 # TECH6 -- Data Science and Econometrics -- Term Paper
-# Republication of Meyersson (2014) -- Candidates: 19, 34, 42
+# Replication of Meyersson (2014) -- Candidates: 19, 34, 42
 #
 # HOW TO RUN IT
 #   Open the R project (.Rproj), open this file, and run it as a whole with
 #   Ctrl+Shift+Enter (Windows) / Cmd+Shift+Enter (Mac), or the Source button.
-#   Output is saved in output/tables/ and output/figures/.
+#   Output is saved in subfolders under output/
 #
 #   Extension 2 starts in Python. Run main.py FIRST, in the course's TECH6
 #   conda environment (conda activate TECH6, then python main.py). It saves

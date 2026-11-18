@@ -1,6 +1,5 @@
 # =============================================================================
-# 01_rd_on_prediction.R : Extension 2, how much of the jump do pre-1994
-# differences explain?
+# 01_rd_on_prediction.R : Extension 2, step 2, RD on predicted education
 # =============================================================================
 # WHAT THIS SCRIPT DOES
 #   1. Loads the actual outcome and the predictions made by main.py (Python,

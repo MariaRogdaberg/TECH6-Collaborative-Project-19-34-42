@@ -9,7 +9,6 @@
 # ============================================================================
 
 # ---- 1. Install the packages -----------------------------------------------
-
 course_packages <- c(
   "tidyverse",   # data wrangling + plotting (dplyr, ggplot2, tidyr, ...)
   "fixest"      # feols(): fixed effects, IV, clustered SEs, event studies

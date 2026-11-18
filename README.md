@@ -78,7 +78,11 @@ project folder. Results are saved in `output/extension1/` and `output/extension2
 
 ## Notes
 
-- `03_table3.R` prints five warnings that the VCOV matrix "was 'fixed'". They come from the
-  cubic and quartic regressions at the narrowest bandwidths, where few towns are left to
-  estimate many coefficients.
+- `02_table2.R`, `04_table7.R` and the Extension 1 and 2 scripts: `fixest` notes that a
+  variable was "removed because of collinearity". A province dummy, or the indicator
+  `buyuk`, does not vary within the sample of a regression, so it cannot be estimated
+  and is dropped.
+- `03_table3.R`: five warnings that the VCOV matrix "was 'fixed'". They come from the
+  cubic and quartic regressions at the narrowest bandwidths, where few towns are left
+  to estimate many coefficients.
 
