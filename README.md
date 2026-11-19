@@ -9,6 +9,42 @@ adds two extensions. Two master files run everything: `main.py` (Python) makes t
 predictions used in Extension 2, and `run_all.R` (R) then produces every table, figure and
 extension result from the original data.
 
+## Structure
+
+```text
+TECH6-Collaborative-Project-19-34-42/
+├── README.md
+├── TECH6 Collaborative Project, 19, 34, 42.Rproj
+├── main.py
+├── run_all.R
+├── data/
+│   └── regdata0.dta
+├── code/
+│   ├── 00_setup.R
+│   ├── 01_table1.R
+│   ├── 02_table2.R
+│   ├── 03_table3.R
+│   ├── 04_table7.R
+│   ├── 05_figure1.R
+│   ├── 06_figure2.R
+│   ├── 07_figure3.R
+│   ├── 08_figure4.R
+│   ├── extension1/
+│   │   ├── 01_sample.R
+│   │   ├── 02_main_results.R
+│   │   ├── 03_control_vs_difference.R
+│   │   └── 04_robustness.R
+│   └── extension2/
+│       └── 01_rd_on_prediction.R
+└── output/
+    ├── tables/
+    ├── figures/
+    ├── extension1/
+    └── extension2/
+```
+
+
+
 ## Data
 
 The analysis uses one file, `data/regdata0.dta`, which is included in the repository. It comes
