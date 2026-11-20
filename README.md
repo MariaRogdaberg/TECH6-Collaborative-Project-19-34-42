@@ -81,6 +81,10 @@ Empowerment of the Poor and Pious", *Econometrica*, 82(1), 229–269.
 `main.py` rebuilds `output/extension2/predictions.csv`. `run_all.R` uses the predictions in the
 repository, so run `main.py` first to regenerate every result from the data.
 
+#### Notes on extension 2:
+Following an answer from the lecturer, `main.py` is run separately and is not called from `run_all.R`. 
+`run_all.R` always reads the predictions in `output/extension2/` so if you only run `run_all.R`, Extension 2 uses the predictions already in our repository. If `main.py` is ran first, it overwrites `predictions.csv`, `benchmark.csv` and `accuracy.csv` so Extension 2 uses these predictions. These should be identical to what is already in the repository.
+
 ## Table and figure crosswalk
 
 ### Replication
